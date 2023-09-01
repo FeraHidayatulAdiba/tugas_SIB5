@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    margin-top: 120px;
+}
+.colums{
+    float: left;
+    width: 20. 20%;
+    padding: 9px;
+}
+.price{
+    list-style-type: none;
+    border: 1px solid;
+    margin: 5px;
+    padding: 0px;
+}
+.price:hover{
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+.price .header{
+    background: #96C291;
+    color: white;
+    font-size: 25px;
+}
+
+.price-amount {
+    font-size: 14px; /* Atur ukuran font yang lebih kecil sesuai kebutuhan */
+}
+
+.price li{
+    background: white;
+    border-bottom: 5px solid #eee;
+    padding: 17px;
+    text-align: center;
+}
+.button{
+    background: #96C291;
+    border: none;
+    color: white;
+    padding: 12px 130px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
